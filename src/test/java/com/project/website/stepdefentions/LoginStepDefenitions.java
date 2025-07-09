@@ -10,6 +10,9 @@ public class LoginStepDefenitions {
 	public void user_navigate_to_url() {
 	    // Write code here that turns the phrase above into concrete actions
 	   System.out.println("Navigated to URL");
+	   
+	   
+	   
 	}
 
 	@When("^user enters username (.+) and password (.+)$")
