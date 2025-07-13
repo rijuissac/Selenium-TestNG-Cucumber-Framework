@@ -6,8 +6,13 @@ import io.cucumber.java.en.When;
 public class LoginStepDefenitions {
 	
 	
-	@Given("user navigate to  url")
-	public void user_navigate_to_url() {
+	void LoginStepDefenitions()
+	{
+		System.out.println("In Contructors");
+	}
+	
+	@Given("user navigate to url for login")
+	public void user_navigate_to_url_for_login() {
 	    // Write code here that turns the phrase above into concrete actions
 	   System.out.println("Navigated to URL");
 	   

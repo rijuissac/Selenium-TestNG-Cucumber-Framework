@@ -9,9 +9,10 @@
 		<selenium.version>4.32.0</selenium.version>
 		<cucumber.java.version>7.23.0</cucumber.java.version>
 		<testng.version>7.11.0</testng.version>
+		<log4j.version>2.23.1</log4j.version>
 	</properties>
 
-	<!-- Depenpendencies for the project-->
+	<!-- Depenpendencies for the project -->
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -44,8 +45,7 @@
 			<version>${cucumber.java.version}</version>
 		</dependency>
 
-		<!--
-		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
@@ -65,6 +65,16 @@
 			<artifactId>testng</artifactId>
 			<version>${testng.version}</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>${log4j.version}</version> <!-- Use the latest version -->
+		</dependency>
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>${log4j.version}</version>  <!-- Use the latest version -->
 		</dependency>
 	</dependencies>
 </project>
