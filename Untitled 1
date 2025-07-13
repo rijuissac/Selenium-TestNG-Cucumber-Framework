@@ -1,0 +1,7 @@
+Selenium - Cucumber - TestNG - POM Model
+SHould have capacity to execute the test cases in multiple browser parallelly
+also it can execute the scenarios parallel in single browser cofiguration
+it should be logging Log4j
+take screenshot of passed and failed testcases
+reporting extent and allure
+
