@@ -1,7 +1,9 @@
 package com.project.website.stepdefentions;
+import drivers.DriverManager;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import utils.PropertyFileReader;
 
 public class LoginStepDefenitions {
 	
@@ -14,10 +16,8 @@ public class LoginStepDefenitions {
 	@Given("user navigate to url for login")
 	public void user_navigate_to_url_for_login() {
 	    // Write code here that turns the phrase above into concrete actions
-	   System.out.println("Navigated to URL");
-	   
-	   
-	   
+	   DriverManager.getDriver().get(PropertyFileReader.getProperty("URL_HOME"));
+	    
 	}
 
 	@When("^user enters username (.+) and password (.+)$")

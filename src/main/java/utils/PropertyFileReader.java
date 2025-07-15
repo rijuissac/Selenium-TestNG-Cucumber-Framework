@@ -18,7 +18,7 @@ public class PropertyFileReader {
 			file = new FileInputStream(configFileName);
 			properties.load(file);
 			System.out.println(properties.get("URL_HOME"));
-			
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			System.out.println("Failed Load property file");
@@ -27,9 +27,8 @@ public class PropertyFileReader {
 
 	}
 
-	public static void main(String args[]) {
-		loadPropertyFile();
-
+	public static String getProperty(String key) {
+		return properties.getProperty(key);
 	}
 
 }

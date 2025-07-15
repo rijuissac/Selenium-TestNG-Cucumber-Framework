@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Cucumber All Feature" parallel="tests" thread-count="5" >
+    <test name="Test Cucumber All Feature Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.project.runners.TestNGRunner"/>
+        </classes>
+    </test>
+     <test name="Test Cucumber All Feature Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.project.runners.TestNGRunner"/>
+        </classes>
+    </test>
+</suite>

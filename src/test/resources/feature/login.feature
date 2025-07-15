@@ -7,6 +7,6 @@ Feature: Login to the application
     And clicks on submit
     Then user sucessfully lands to dashboard page
     Examples:
-    |username	|password		|
-		|admin		|admin			|
-		|user1		|asd123456	|	
+    |username|password|
+		|admin@practicesoftwaretesting.com|welcome01|
+		|customer@practicesoftwaretesting.com|welcome01|
