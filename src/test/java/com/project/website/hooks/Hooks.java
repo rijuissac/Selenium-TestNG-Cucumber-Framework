@@ -17,8 +17,10 @@ import utils.PropertyFileReader;
 
 public class Hooks {
 
-	void Hooks() {
-
+	private static TestContext testcontext;
+	
+	Hooks(TestContext testContext) {
+		this.testcontext = new TestContext();
 	}
 
 	@BeforeAll

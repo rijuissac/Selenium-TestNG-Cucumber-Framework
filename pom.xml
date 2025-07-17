@@ -6,7 +6,7 @@
 	<artifactId>Selenium-TestNG-Cucumber-Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<selenium.version>4.32.0</selenium.version>
+		<selenium.version>4.34.0</selenium.version>
 		<cucumber.java.version>7.23.0</cucumber.java.version>
 		<testng.version>7.11.0</testng.version>
 		<log4j.version>2.23.1</log4j.version>
