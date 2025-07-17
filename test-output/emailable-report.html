@@ -9,16 +9,82 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite Cucumber All Feature</th></tr>
-<tr><td><a href="#t0">Test Cucumber All Feature Chrome</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">9,892</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test Cucumber All Feature Firefox</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,629</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">4</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">33,521</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Test Cucumber All Feature Chrome</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">14,948</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test Cucumber All Feature Firefox</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,286</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">47,234</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite Cucumber All Feature</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Cucumber All Feature Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.project.runners.TestNGRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1752531669630</td><td rowspan="2">3264</td></tr><tr class="passedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test Cucumber All Feature Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.project.runners.TestNGRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="2">1752531669630</td><td rowspan="2">10441</td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite Cucumber All Feature</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Cucumber All Feature Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.project.runners.TestNGRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="2">1752712006542</td><td rowspan="2">6775</td></tr><tr class="failedeven"><td><a href="#m1">runScenario</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test Cucumber All Feature Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.project.runners.TestNGRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="2">1752712026980</td><td rowspan="2">10098</td></tr><tr class="passedeven"><td><a href="#m3">runScenario</a></td></tr></tbody>
 </table>
-<h2>Test Cucumber All Feature Chrome</h2><h3 id="m0">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test Cucumber All Feature Firefox</h2><h3 id="m2">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Cucumber All Feature Chrome</h2><h3 id="m0">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application as an admin&quot;</td><td>&quot;Login to the application&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.15&apos;
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:29)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:40)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application as customer&quot;</td><td>&quot;Login to the application&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.15&apos;
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:29)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:40)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Cucumber All Feature Firefox</h2><h3 id="m2">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application as customer&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.project.runners.TestNGRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;login to the application as an admin&quot;</td><td>&quot;Login to the application&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

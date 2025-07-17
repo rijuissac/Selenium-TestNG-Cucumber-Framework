@@ -755,3 +755,33 @@
 2025-07-17 11:33:25.791 [main] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
 2025-07-17 11:33:25.791 [main] INFO  utils.LogUtils - Broweser Selected: FIREFOX
 2025-07-17 11:33:34.601 [main] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 12:26:46.428 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-17 12:26:46.428 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-17 12:26:46.432 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-17 12:26:46.432 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-17 12:26:46.448 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-17 12:26:46.448 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-17 12:26:46.751 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 12:26:46.751 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 12:26:46.776 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-17 12:26:46.776 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-17 12:26:53.310 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 12:26:53.332 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 12:26:53.333 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-17 12:26:59.683 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 12:27:05.566 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 12:27:06.982 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 12:27:06.983 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-17 12:27:15.785 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 14:04:01.755 [main] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-17 14:04:01.761 [main] INFO  utils.LogUtils - Loading Property File
+2025-07-17 14:04:01.778 [main] INFO  utils.LogUtils - 
+2025-07-17 14:04:01.931 [main] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 14:04:01.932 [main] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-17 14:04:07.455 [main] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 14:04:13.844 [main] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 14:04:13.844 [main] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-17 14:04:18.014 [main] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-17 14:04:19.371 [main] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-17 14:04:19.371 [main] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-17 14:04:23.416 [main] INFO  utils.LogUtils - ====== AFTER SCENARIO =======

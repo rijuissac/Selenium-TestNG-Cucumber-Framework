@@ -10,10 +10,16 @@
 		<cucumber.java.version>7.23.0</cucumber.java.version>
 		<testng.version>7.11.0</testng.version>
 		<log4j.version>2.23.1</log4j.version>
+		<allure.report.veriosn>2.13.9</allure.report.veriosn>
 	</properties>
 
 	<!-- Depenpendencies for the project -->
 	<dependencies>
+		<dependency>   
+			<groupId>io.qameta.allure</groupId>   
+			<artifactId>allure-testng</artifactId>   
+			<version>${allure.report.veriosn}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -45,7 +51,8 @@
 			<version>${cucumber.java.version}</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<!--
+		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>

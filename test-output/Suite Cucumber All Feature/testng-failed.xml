@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite Cucumber All Feature]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test Cucumber All Feature Chrome(failed)">
+<suite parallel="tests" name="Failed suite [Suite Cucumber All Feature]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test Cucumber All Feature Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.project.runners.TestNGRunner">
@@ -9,24 +9,11 @@
           <include name="setUpClass"/>
           <include name="clearBrowser"/>
           <include name="tearDownClass"/>
-          <include name="runScenario"/>
           <include name="setBrowser"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="setupBrowser"/>
         </methods>
       </class> <!-- com.project.runners.TestNGRunner -->
     </classes>
   </test> <!-- Test Cucumber All Feature Chrome(failed) -->
-  <test thread-count="5" name="Test Cucumber All Feature Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="com.project.runners.TestNGRunner">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="clearBrowser"/>
-          <include name="setBrowser"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario"/>
-        </methods>
-      </class> <!-- com.project.runners.TestNGRunner -->
-    </classes>
-  </test> <!-- Test Cucumber All Feature Firefox(failed) -->
 </suite> <!-- Failed suite [Suite Cucumber All Feature] -->
