@@ -3,7 +3,14 @@ package com.project.website.stepdefentions;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 
+import java.util.Map;
+
+import org.testng.Assert;
+
 import com.project.website.hooks.TestContext;
+import com.project.website.pages.HomePage;
+import com.project.website.pages.Register;
+import com.project.website.pages.SignIn;
 
 import Keywords.WebUI;
 import constants.FrameworkConstants;
@@ -11,43 +18,51 @@ import io.cucumber.java.en.And;
 
 public class RegistrationStepDefenitions {
 	
+	HomePage homepage;
+	SignIn signin;
+	Register registerPage;
+	TestContext textcontext;
 	
+	public RegistrationStepDefenitions()
+	{
+		textcontext = new TestContext();
+	}
 	
 	@When("user is in home page")
 	public void user_is_in_home_page() {
 	   
 		WebUI.getUrl(FrameworkConstants.URL_HOME);
+		WebUI.waitForPageLoaded();
 		
 	}
 
 	@When("user clicks on the sign in field")
 	public void user_clicks_on_the_sign_in_field() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		
+		homepage = textcontext.getHomePage();
+		signin= homepage.clickLogin();
+		WebUI.waitForPageLoaded();
+	
 	}
 
 	@When("user click on Register your account hyperlink")
 	public void user_click_on_register_your_account_hyperlink() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+		WebUI.waitForPageLoaded();
+		registerPage =signin.click_register_account();
+		
 	}
 
 	@Then("user is navigated to registration url {string}")
-	public void user_is_navigated_to_registration_url(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void user_is_navigated_to_registration_url(String expectedURL) {
+	   
+		Assert.assertEquals(expectedURL, WebUI.getCurrentURL());
 	}
 
 	@When("user enters registration details")
-	public void user_enters_registration_details(io.cucumber.datatable.DataTable dataTable) {
-	    // Write code here that turns the phrase above into concrete actions
-	    // For automatic transformation, change DataTable to one of
-	    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
-	    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
-	    // Double, Byte, Short, Long, BigInteger or BigDecimal.
-	    //
-	    // For other transformations you can register a DataTableType.
-	    throw new io.cucumber.java.PendingException();
+	public void user_enters_registration_details(Map<String,String> dataTable) {
+	  
+		System.out.println("Data Table: "+dataTable.get("firstname"));
+		registerPage.setTextfirstName(dataTable.get("firstname"));
 	}
 
 	@When("user clicks on the Register button")

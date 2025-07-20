@@ -23,10 +23,12 @@ public class LoginStepDefenitions {
 	
 	SignIn signInPage;
 	Dashboard dashboard;
+	TestContext textcontxt;
 	
 	
 	public LoginStepDefenitions()
 	{
+		this.textcontxt = new TestContext();
 		System.out.println("In Contructor");
 	}
 	
@@ -41,7 +43,7 @@ public class LoginStepDefenitions {
 	@When("^user enters username (.+) and password (.+)$")
 	public void user_enters_username_and_password(String username, String password) {
 	   
-		signInPage = TestContext.getSignInPage();
+		signInPage = textcontxt.getSignInPage();
 		signInPage.setEmail(username);
 		signInPage.setPassword(password);
 	    System.out.println("user:"+ username);
