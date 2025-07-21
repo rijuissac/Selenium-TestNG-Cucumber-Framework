@@ -4,16 +4,16 @@
   <test thread-count="5" parallel="tests" name="Test Cucumber All Feature Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.project.runners.TestNGRunner">
+      <class name="com.project.runners.RunParallelAllScenarios">
         <methods>
           <include name="setUpClass"/>
           <include name="clearBrowser"/>
           <include name="tearDownClass"/>
           <include name="setBrowser"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="runScenario" invocation-numbers="2"/>
           <include name="setupBrowser"/>
         </methods>
-      </class> <!-- com.project.runners.TestNGRunner -->
+      </class> <!-- com.project.runners.RunParallelAllScenarios -->
     </classes>
   </test> <!-- Test Cucumber All Feature Chrome(failed) -->
 </suite> <!-- Failed suite [Suite Cucumber All Feature] -->

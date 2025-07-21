@@ -1,6 +1,7 @@
 package drivers;
 
 import java.lang.annotation.Annotation;
+import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ThreadGuard;
@@ -27,6 +28,7 @@ public class DriverManager {
 		LogUtils.info("Broweser Selected: " + browser_selected);
 
 		driver.set(ThreadGuard.protect(BrowserFactory.valueOf(browser_selected).createDriver()));
+		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds( 30));
 	}
 	
 	

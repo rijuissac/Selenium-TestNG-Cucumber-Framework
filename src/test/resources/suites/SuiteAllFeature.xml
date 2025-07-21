@@ -4,13 +4,13 @@
     <test name="Test Cucumber All Feature Chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.project.runners.TestNGRunner"/>
+            <class name="com.project.runners.RunParallelAllScenarios"/>
         </classes>
     </test>
      <test name="Test Cucumber All Feature Firefox">
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="com.project.runners.TestNGRunner"/>
+            <class name="com.project.runners.RunParallelAllScenarios"/>
         </classes>
     </test>
 </suite>

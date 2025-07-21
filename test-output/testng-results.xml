@@ -1,197 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T12:26:44 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-17T12:27:17 NZST" duration-ms="32286">
+  <suite started-at="2025-07-21T13:02:12 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-21T13:03:39 NZST" duration-ms="87398">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-17T12:26:44 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-17T12:26:59 NZST" duration-ms="14948">
-      <class name="com.project.runners.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:44 NZST" name="setUpClass" finished-at="2025-07-17T12:26:46 NZST" duration-ms="1655" status="PASS">
+    <test started-at="2025-07-21T13:02:12 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-21T13:03:20 NZST" duration-ms="68787">
+      <class name="com.project.runners.RunParallelAllScenarios">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:12 NZST" name="setUpClass" finished-at="2025-07-21T13:02:13 NZST" duration-ms="1442" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@a1f72f5]]>
+                <![CDATA[org.testng.TestRunner@2462cb01]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:46 NZST" name="setupBrowser" finished-at="2025-07-17T12:26:46 NZST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:46 NZST" name="setBrowser" finished-at="2025-07-17T12:26:46 NZST" duration-ms="22" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:46 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T12:26:53 NZST" duration-ms="6775" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["login to the application as an admin"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login to the application"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DUCO-X06U517358', ip: '192.168.1.15'
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DUCO-X06U517358', ip: '192.168.1.15'
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-at drivers.DriverManager.createDriverInstance(DriverManager.java:29)
-at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:40)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe": CreateProcess error=5, Access is denied
-at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-... 9 more
-Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe": CreateProcess error=5, Access is denied
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-at java.base/java.lang.ProcessImpl.create(Native Method)
-at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-... 14 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:53 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T12:26:59 NZST" duration-ms="6359" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["login to the application as customer"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login to the application"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DUCO-X06U517358', ip: '192.168.1.15'
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DUCO-X06U517358', ip: '192.168.1.15'
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-at drivers.DriverManager.createDriverInstance(DriverManager.java:29)
-at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:40)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe": CreateProcess error=5, Access is denied
-at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-... 9 more
-Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.157\chromedriver.exe": CreateProcess error=5, Access is denied
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-at java.base/java.lang.ProcessImpl.create(Native Method)
-at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-... 14 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:59 NZST" name="clearBrowser" finished-at="2025-07-17T12:26:59 NZST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.TestNGRunner@55de24cc]" started-at="2025-07-17T12:26:59 NZST" name="tearDownClass" finished-at="2025-07-17T12:26:59 NZST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.project.runners.TestNGRunner -->
-    </test> <!-- Test Cucumber All Feature Chrome -->
-    <test started-at="2025-07-17T12:26:44 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-17T12:27:17 NZST" duration-ms="32286">
-      <class name="com.project.runners.TestNGRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:26:44 NZST" name="setUpClass" finished-at="2025-07-17T12:26:46 NZST" duration-ms="1655" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@4b2c5e02]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:26:46 NZST" name="setupBrowser" finished-at="2025-07-17T12:26:46 NZST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="setupBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,7 +33,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:26:46 NZST" name="setBrowser" finished-at="2025-07-17T12:26:46 NZST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="setBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,7 +44,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:26:46 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T12:27:06 NZST" duration-ms="20436" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:27 NZST" duration-ms="13918" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -229,7 +60,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:27:06 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-17T12:27:17 NZST" duration-ms="10098" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:27 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:44 NZST" duration-ms="17071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -245,15 +76,228 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:27:17 NZST" name="clearBrowser" finished-at="2025-07-17T12:27:17 NZST" duration-ms="0" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:44 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:59 NZST" duration-ms="14529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with all mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:59 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:10 NZST" duration-ms="11192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email is missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:10 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:20 NZST" duration-ms="10534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email and phone are missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:20 NZST" name="clearBrowser" finished-at="2025-07-21T13:03:20 NZST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.TestNGRunner@5dafbe45]" started-at="2025-07-17T12:27:17 NZST" name="tearDownClass" finished-at="2025-07-17T12:27:17 NZST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:20 NZST" name="tearDownClass" finished-at="2025-07-21T13:03:20 NZST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.project.runners.TestNGRunner -->
+      </class> <!-- com.project.runners.RunParallelAllScenarios -->
     </test> <!-- Test Cucumber All Feature Firefox -->
+    <test started-at="2025-07-21T13:02:12 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-21T13:03:39 NZST" duration-ms="87398">
+      <class name="com.project.runners.RunParallelAllScenarios">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:12 NZST" name="setUpClass" finished-at="2025-07-21T13:02:13 NZST" duration-ms="1441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b410b60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="setupBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="setBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:24 NZST" duration-ms="10663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to the application as an admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:24 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:31 NZST" duration-ms="7305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to the application as customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:31 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:06 NZST" duration-ms="35348" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with all mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47e9618440a601fe45d7aff3a0ee8ec5, clickElement {id=f.E5BD2679831D7645D6BB1435E0B83068.d.7C5F8011B144985C344F36D22B7BAB78.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56650/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47e9618440a601fe45d7aff3a0ee8ec5)] -> xpath: //a[contains(.,'Sign in')]]
+Session ID: 47e9618440a601fe45d7aff3a0ee8ec5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47e9618440a601fe45d7aff3a0ee8ec5, clickElement {id=f.E5BD2679831D7645D6BB1435E0B83068.d.7C5F8011B144985C344F36D22B7BAB78.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56650/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47e9618440a601fe45d7aff3a0ee8ec5)] -> xpath: //a[contains(.,'Sign in')]]
+Session ID: 47e9618440a601fe45d7aff3a0ee8ec5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+at ✽.user clicks on the Sign in link(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:06 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:29 NZST" duration-ms="22921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email is missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:29 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:39 NZST" duration-ms="9626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email and phone are missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:39 NZST" name="clearBrowser" finished-at="2025-07-21T13:03:39 NZST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:39 NZST" name="tearDownClass" finished-at="2025-07-21T13:03:39 NZST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.project.runners.RunParallelAllScenarios -->
+    </test> <!-- Test Cucumber All Feature Chrome -->
   </suite> <!-- Suite Cucumber All Feature -->
 </testng-results>
