@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Test Cucumber All Feature Firefox</title>
+<title>TestNG:  Test Cucumber All Feature Chrome(failed)</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Test Cucumber All Feature Firefox</h2><table border='1' align="center">
+<h2 align='center'>Test Cucumber All Feature Chrome(failed)</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 22 10:56:19 NZST 2025</td>
+<td>Started on:</td><td>Tue Jul 22 10:47:53 NZST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>64 seconds (64263 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19613 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,52 +80,23 @@ function toggleAllBoxes() {
 <td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: jdk.proxy2.$Proxy40
+Driver info: jdk.proxy2.$Proxy38
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
 	at ✽.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
-</pre></div><a href='#' onClick='toggleBox("stack-trace45487832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace45487832'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace327848137", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327848137'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: jdk.proxy2.$Proxy40
+Driver info: jdk.proxy2.$Proxy38
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
 	at ✽.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
 </pre></div></td>
-<td>19</td>
-<td>com.project.runners.RunParallelAllScenarios@6cd24612</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email and phone are missing", "Registration Scenarios"</td>
-<td></td>
-<td>8</td>
-<td>com.project.runners.RunParallelAllScenarios@6cd24612</td></tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as customer", "Login to the application"</td>
-<td></td>
-<td>12</td>
-<td>com.project.runners.RunParallelAllScenarios@6cd24612</td></tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
-<td></td>
-<td>9</td>
-<td>com.project.runners.RunParallelAllScenarios@6cd24612</td></tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
-<td></td>
-<td>12</td>
-<td>com.project.runners.RunParallelAllScenarios@6cd24612</td></tr>
+<td>17</td>
+<td>com.project.runners.RunParallelAllScenarios@5a7fe64f</td></tr>
 </table><p>
 </body>
 </html>

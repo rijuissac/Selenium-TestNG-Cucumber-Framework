@@ -1,6 +1,6 @@
 Feature: Login to the application
 
-  @regression
+  @regression 
   Scenario: login to the application as an admin
     Given user navigate to url for login
     When user enters username <username> and password <password>

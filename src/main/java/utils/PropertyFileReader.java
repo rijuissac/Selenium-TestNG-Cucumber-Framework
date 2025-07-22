@@ -17,7 +17,6 @@ public class PropertyFileReader {
 			properties = new Properties();
 			file = new FileInputStream(configFileName);
 			properties.load(file);
-			System.out.println(properties.get("URL_HOME"));
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

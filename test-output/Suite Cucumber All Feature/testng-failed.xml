@@ -7,13 +7,26 @@
       <class name="com.project.runners.RunParallelAllScenarios">
         <methods>
           <include name="setUpClass"/>
-          <include name="clearBrowser"/>
           <include name="tearDownClass"/>
-          <include name="setBrowser"/>
-          <include name="runScenario" invocation-numbers="2"/>
+          <include name="runScenario" invocation-numbers="1 2 3 4"/>
           <include name="setupBrowser"/>
+          <include name="clearBrowser"/>
         </methods>
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
     </classes>
   </test> <!-- Test Cucumber All Feature Chrome(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Cucumber All Feature Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.project.runners.RunParallelAllScenarios">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="2"/>
+          <include name="setupBrowser"/>
+          <include name="clearBrowser"/>
+        </methods>
+      </class> <!-- com.project.runners.RunParallelAllScenarios -->
+    </classes>
+  </test> <!-- Test Cucumber All Feature Firefox(failed) -->
 </suite> <!-- Failed suite [Suite Cucumber All Feature] -->

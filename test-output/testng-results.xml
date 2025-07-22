@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-21T13:02:12 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-21T13:03:39 NZST" duration-ms="87398">
+  <suite started-at="2025-07-22T10:56:19 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-22T10:57:23 NZST" duration-ms="64263">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-21T13:02:12 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-21T13:03:20 NZST" duration-ms="68787">
+    <test started-at="2025-07-22T10:56:19 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-22T10:56:40 NZST" duration-ms="21137">
       <class name="com.project.runners.RunParallelAllScenarios">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:12 NZST" name="setUpClass" finished-at="2025-07-21T13:02:13 NZST" duration-ms="1442" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:19 NZST" name="setUpClass" finished-at="2025-07-22T10:56:20 NZST" duration-ms="1435" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2462cb01]]>
+                <![CDATA[org.testng.TestRunner@7b50df34]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="setupBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:20 NZST" name="setupBrowser" finished-at="2025-07-22T10:56:20 NZST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="setBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:13 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:27 NZST" duration-ms="13918" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:20 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:28 NZST" duration-ms="7540" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:27 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:44 NZST" duration-ms="17071" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:28 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:33 NZST" duration-ms="4830" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -73,169 +62,28 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:44 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:59 NZST" duration-ms="14529" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Successful registration with all mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Scenarios"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:02:59 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:10 NZST" duration-ms="11192" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Registration fails when email is missing"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Scenarios"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:10 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:20 NZST" duration-ms="10534" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Registration fails when email and phone are missing"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Scenarios"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:20 NZST" name="clearBrowser" finished-at="2025-07-21T13:03:20 NZST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5dafbe45]" started-at="2025-07-21T13:03:20 NZST" name="tearDownClass" finished-at="2025-07-21T13:03:20 NZST" duration-ms="26" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.project.runners.RunParallelAllScenarios -->
-    </test> <!-- Test Cucumber All Feature Firefox -->
-    <test started-at="2025-07-21T13:02:12 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-21T13:03:39 NZST" duration-ms="87398">
-      <class name="com.project.runners.RunParallelAllScenarios">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:12 NZST" name="setUpClass" finished-at="2025-07-21T13:02:13 NZST" duration-ms="1441" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@1b410b60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="setupBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="setBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="setBrowser" finished-at="2025-07-21T13:02:13 NZST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setBrowser -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:13 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:24 NZST" duration-ms="10663" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["login to the application as an admin"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login to the application"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:24 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:02:31 NZST" duration-ms="7305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["login to the application as customer"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login to the application"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:02:31 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:06 NZST" duration-ms="35348" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Successful registration with all mandatory fields"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Registration Scenarios"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[element not interactable
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=138.0.7204.101)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47e9618440a601fe45d7aff3a0ee8ec5, clickElement {id=f.E5BD2679831D7645D6BB1435E0B83068.d.7C5F8011B144985C344F36D22B7BAB78.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56650/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (47e9618440a601fe45d7aff3a0ee8ec5)] -> xpath: //a[contains(.,'Sign in')]]
-Session ID: 47e9618440a601fe45d7aff3a0ee8ec5]]>
+Command: [494f143eb30f07d7d6e27e76114a5680, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64282/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 494f143eb30f07d7d6e27e76114a5680]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=138.0.7204.101)
 Build info: version: '4.34.0', revision: '707dcb4246*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [47e9618440a601fe45d7aff3a0ee8ec5, clickElement {id=f.E5BD2679831D7645D6BB1435E0B83068.d.7C5F8011B144985C344F36D22B7BAB78.e.14}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56650}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56650/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (47e9618440a601fe45d7aff3a0ee8ec5)] -> xpath: //a[contains(.,'Sign in')]]
-Session ID: 47e9618440a601fe45d7aff3a0ee8ec5
+Command: [494f143eb30f07d7d6e27e76114a5680, findElement {value=password, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64282/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 494f143eb30f07d7d6e27e76114a5680
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -246,18 +94,310 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
-at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
-at ✽.user clicks on the Sign in link(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy39.findElement(Unknown Source)
+at com.project.website.pages.SignIn.setPassword(SignIn.java:26)
+at com.project.website.stepdefentions.LoginStepDefenitions.user_enters_username_and_password(LoginStepDefenitions.java:48)
+at ✽.user enters username customer@practicesoftwaretesting.com and password welcome01(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/login.feature:16)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:06 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:29 NZST" duration-ms="22921" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:33 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:35 NZST" duration-ms="2163" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with all mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f470da5f39c06e7dca5d2dacdcfe83ea, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64329/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f470da5f39c06e7dca5d2dacdcfe83ea]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f470da5f39c06e7dca5d2dacdcfe83ea, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64329/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f470da5f39c06e7dca5d2dacdcfe83ea
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:324)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy39.getCurrentUrl(Unknown Source)
+at Keywords.WebUI.waitForPageLoaded(WebUI.java:41)
+at com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page(RegistrationStepDefenitions.java:41)
+at ✽.user is on the home page(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:35 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:37 NZST" duration-ms="1694" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email is missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e78f3d68f53da64aa329de3ab40a3497, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64424/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e78f3d68f53da64aa329de3ab40a3497]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e78f3d68f53da64aa329de3ab40a3497, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64424/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e78f3d68f53da64aa329de3ab40a3497
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:324)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy39.getCurrentUrl(Unknown Source)
+at Keywords.WebUI.waitForPageLoaded(WebUI.java:41)
+at com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page(RegistrationStepDefenitions.java:41)
+at ✽.user is on the home page(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:37 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:40 NZST" duration-ms="3357" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Registration fails when email and phone are missing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02714681381f2b6feb37a4545304985, get {url=https://practicesoftwaretesting.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64441/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02714681381f2b6feb37a4545304985]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
+  (Session info: chrome=138.0.7204.101)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c02714681381f2b6feb37a4545304985, get {url=https://practicesoftwaretesting.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.101, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\RIJUIS~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64441/devtoo..., se:cdpVersion: 138.0.7204.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c02714681381f2b6feb37a4545304985
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:312)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invokeUnderlying(ThreadGuard.java:99)
+at org.openqa.selenium.support.ThreadGuard$WebDriverInvocationHandler.invoke(ThreadGuard.java:91)
+at jdk.proxy2/jdk.proxy2.$Proxy39.get(Unknown Source)
+at Keywords.WebUI.getUrl(WebUI.java:21)
+at com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page(RegistrationStepDefenitions.java:40)
+at ✽.user is on the home page(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:40 NZST" name="clearBrowser" finished-at="2025-07-22T10:56:40 NZST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@333d4a8c]" started-at="2025-07-22T10:56:40 NZST" name="tearDownClass" finished-at="2025-07-22T10:56:40 NZST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.project.runners.RunParallelAllScenarios -->
+    </test> <!-- Test Cucumber All Feature Chrome -->
+    <test started-at="2025-07-22T10:56:19 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-22T10:57:23 NZST" duration-ms="64263">
+      <class name="com.project.runners.RunParallelAllScenarios">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:56:19 NZST" name="setUpClass" finished-at="2025-07-22T10:56:20 NZST" duration-ms="1435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b410b60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:56:20 NZST" name="setupBrowser" finished-at="2025-07-22T10:56:20 NZST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:56:20 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:33 NZST" duration-ms="12737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to the application as an admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:56:33 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:56:45 NZST" duration-ms="12308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["login to the application as customer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:56:45 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:57:05 NZST" duration-ms="19739" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful registration with all mandatory fields"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for url to be "https://practicesoftwaretesting.com/auth/login". Current url: "https://practicesoftwaretesting.com/auth/register" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: jdk.proxy2.$Proxy40]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://practicesoftwaretesting.com/auth/login". Current url: "https://practicesoftwaretesting.com/auth/register" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: jdk.proxy2.$Proxy40
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
+at ✽.user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:57:05 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:57:14 NZST" duration-ms="9072" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -273,7 +413,7 @@ at ✽.user clicks on the Sign in link(file:///C:/Users/RijuIsaac/eclipse-worksp
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:29 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-21T13:03:39 NZST" duration-ms="9626" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:57:14 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-22T10:57:23 NZST" duration-ms="8888" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -289,15 +429,15 @@ at ✽.user clicks on the Sign in link(file:///C:/Users/RijuIsaac/eclipse-worksp
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:39 NZST" name="clearBrowser" finished-at="2025-07-21T13:03:39 NZST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:57:23 NZST" name="clearBrowser" finished-at="2025-07-22T10:57:23 NZST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearBrowser -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@55de24cc]" started-at="2025-07-21T13:03:39 NZST" name="tearDownClass" finished-at="2025-07-21T13:03:39 NZST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@6cd24612]" started-at="2025-07-22T10:57:23 NZST" name="tearDownClass" finished-at="2025-07-22T10:57:23 NZST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
-    </test> <!-- Test Cucumber All Feature Chrome -->
+    </test> <!-- Test Cucumber All Feature Firefox -->
   </suite> <!-- Suite Cucumber All Feature -->
 </testng-results>

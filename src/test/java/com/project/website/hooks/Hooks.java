@@ -3,6 +3,7 @@ package com.project.website.hooks;
 import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.project.runners.BaseRunner;
@@ -22,6 +23,8 @@ public class Hooks {
 	Hooks(TestContext testContext) {
 		this.testcontext = new TestContext();
 	}
+	
+	
 
 	@BeforeAll
 	public static void beforeAll() {

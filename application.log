@@ -1109,3 +1109,240 @@
 2025-07-21 13:03:29.769 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
 2025-07-21 13:03:29.770 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
 2025-07-21 13:03:39.144 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:33:34.479 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:33:34.479 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:33:34.483 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:33:34.483 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:33:34.518 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 10:33:34.519 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 10:33:34.825 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:33:34.825 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:33:34.845 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:33:34.845 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:34:07.654 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:07.975 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:07.975 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:34:13.685 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:15.062 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:15.062 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:34:15.213 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:15.513 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:15.514 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:34:23.099 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:23.582 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:23.586 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:34:26.985 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:28.862 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:28.863 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:34:29.294 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:29.655 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:29.655 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:34:36.345 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:49.834 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:50.827 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:50.827 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:34:58.476 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:34:59.557 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:34:59.557 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:35:06.925 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:05.493 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:38:05.493 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:38:05.498 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:38:05.498 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:38:05.499 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 10:38:05.499 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 10:38:05.774 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:05.774 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:05.775 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:38:05.775 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:38:14.428 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:15.236 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:15.236 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:38:16.839 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:18.667 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:18.667 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:38:20.923 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:21.171 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:21.171 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:38:29.953 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:31.692 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:31.692 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:38:41.816 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:42.125 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:42.125 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:38:51.504 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:38:52.681 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:38:52.681 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:39:02.830 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:39:02.929 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:39:03.212 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:39:03.212 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:39:04.713 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:39:04.730 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:39:14.134 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:39:17.068 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:47:55.086 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:47:55.086 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:47:55.092 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:47:55.092 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:47:55.115 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 10:47:55.115 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 10:47:55.397 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:47:55.397 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:47:55.415 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:47:55.415 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:48:12.541 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:48:17.405 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:20.826 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:56:20.826 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 10:56:20.833 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:56:20.833 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 10:56:20.835 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 10:56:20.835 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 10:56:21.077 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:21.077 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:21.078 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:56:21.078 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:56:27.972 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:28.462 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:28.463 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:56:31.909 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:32.938 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:33.306 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:33.307 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:56:33.653 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:33.654 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:56:35.224 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:35.464 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:35.464 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:56:36.967 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:37.158 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:37.159 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 10:56:39.719 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:44.653 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:56:45.963 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:56:45.963 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:57:04.232 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:57:05.703 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:57:05.703 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:57:13.407 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 10:57:14.776 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 10:57:14.777 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 10:57:22.304 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:02:43.215 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:02:43.881 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:02:43.881 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:02:43.881 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:02:43.882 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:02:43.883 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:02:43.883 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:02:44.126 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:02:44.126 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:02:44.128 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:02:44.128 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:02:51.354 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:02:51.850 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:02:51.851 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:02:55.409 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:02:56.869 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:02:56.870 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:02:59.162 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:02:59.413 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:02:59.413 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:03:07.471 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:03:08.878 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:03:08.878 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:11:24.123 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:11:24.788 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:11:24.788 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:11:24.789 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:11:24.789 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:11:24.790 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:11:24.790 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:11:25.020 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:11:25.020 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:11:25.021 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:11:25.021 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:11:31.856 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:11:32.488 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:11:32.488 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:12:57.900 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:12:58.555 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:12:58.555 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:12:58.556 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:12:58.556 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:12:58.557 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:12:58.557 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:12:58.787 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:12:58.787 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:12:58.789 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:12:58.789 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:13:07.030 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:13:07.713 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:13:07.714 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:13:09.539 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:16:38.958 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:16:39.736 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:16:39.736 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:16:39.736 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:16:39.736 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:16:39.775 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:16:39.775 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:16:40.066 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:16:40.066 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:16:40.087 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:16:40.087 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:16:47.142 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:16:47.420 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:16:47.420 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:28:42.426 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:28:43.168 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:28:43.168 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:28:43.169 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:28:43.169 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:28:43.170 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:28:43.170 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:28:43.399 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:28:43.399 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:28:43.400 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:28:43.400 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:28:51.241 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:28:52.334 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:28:52.335 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:28:54.347 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:28:56.242 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:28:56.242 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:28:58.340 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:28:58.694 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:28:58.695 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:32:55.774 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:32:56.478 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:32:56.478 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:32:56.478 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:32:56.478 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:32:56.480 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:32:56.480 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:32:56.782 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:32:56.782 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:32:56.784 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:32:56.784 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:33:03.702 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:33:03.991 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:33:03.991 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:33:07.276 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:33:07.562 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:33:07.562 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:35:04.681 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-07-22 11:35:05.409 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:35:05.409 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-07-22 11:35:05.410 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:35:05.410 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-07-22 11:35:05.411 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-07-22 11:35:05.411 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-07-22 11:35:05.646 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:35:05.646 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:35:05.648 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-07-22 11:35:05.648 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-07-22 11:35:14.638 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-07-22 11:35:15.072 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-07-22 11:35:15.072 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME

@@ -1,9 +1,11 @@
 package com.project.runners;
 
 import io.cucumber.testng.CucumberOptions;
+import utils.LogUtils;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 
@@ -12,10 +14,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(tags="@regression",features= {"src/test/resources/feature"},
 glue= {"com.project.website.stepdefentions","com.project.website.hooks"},
-plugin= {"pretty","html:target/report.html"})
+plugin= {"pretty","html:target/report.html","rerun:target/rerun.txt"})
 public class RunParallelAllScenarios extends BaseRunner {
 	
-	 @Parameters("browser")
+	/* @Parameters("browser")
 	    @BeforeClass
 	    public void setBrowser(String browser) {
 	    	System.out.println("Browser: "+ browser);
@@ -26,13 +28,19 @@ public class RunParallelAllScenarios extends BaseRunner {
 	    @AfterClass
 	    public void clearBrowser() {
 	    	BrowserConfig.clear();
-	    }
+	    }*/
 	
 	@Override
     @DataProvider(parallel = false)
     public Object[][] scenarios() {
         return super.scenarios();
     }
+	
+	@BeforeSuite
+	public static void beforeSuite()
+	{
+		LogUtils.info("====== BEFORE SUITE =======");
+	}
 
 
    
