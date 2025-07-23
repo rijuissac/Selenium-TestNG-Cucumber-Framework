@@ -11,17 +11,24 @@
 		<testng.version>7.11.0</testng.version>
 		<log4j.version>2.23.1</log4j.version>
 		<allure.report.veriosn>2.13.9</allure.report.veriosn>
+		<extend.report.version>1.14.0</extend.report.version>
 	</properties>
 
 	<!-- Depenpendencies for the project -->
 	<dependencies>
-		
+
+		<!--
+		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>extentreports-cucumber7-adapter</artifactId>
+			<version>${extend.report.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>${selenium.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>

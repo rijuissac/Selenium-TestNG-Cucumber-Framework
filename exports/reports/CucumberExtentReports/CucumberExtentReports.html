@@ -1,0 +1,1304 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jul 23, 2025 10:33:02 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jul 23, 2025 10:33:02 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jul 23, 2025 10:34:08 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>3</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='25%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='75%'><b>3</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='40%'><b>4</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='60%'><b>6</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='44%'><b>28</b> steps passed</small></div>
+<div>
+<small data-tooltip='9%'><b>6</b> steps failed,
+<b>29</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Login to the application":26.599,"Login to the application":2.821,"Registration Scenarios":2.214,"Registration Scenarios":37.548
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@regression</td>
+<td>4</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>40%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 3,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 4,
+failChild: 6,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 28,
+failGrandChild: 6,
+warningGrandChild: 0,
+skipGrandChild: 29,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login to the application</p>
+            <p class="text-sm">
+              <span>10:33:03 am</span> / <span>00:00:26:599</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Login to the application</h5>
+<span class='badge badge-success'>07.23.2025 10:33:03 am</span>
+<span class='badge badge-danger'>07.23.2025 10:33:30 am</span>
+<span class='badge badge-default'>00:00:26:599</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>login to the application as an admin</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>login to the application as an admin</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigate to url for login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters username admin@practicesoftwaretesting.com and password welcome01</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on submit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user successfully lands to dashboard page with url "https://practicesoftwaretesting.com/admin/dashboard"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>login to the application as customer</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="59"><span class="badge log pass-bg mr-2">Pass</span>login to the application as customer</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigate to url for login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters username customer@practicesoftwaretesting.com and password welcome01</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks on submit</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user successfully lands to dashboard page with url "https://practicesoftwaretesting.com/account"</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Login to the application</p>
+            <p class="text-sm">
+              <span>10:33:03 am</span> / <span>00:00:02:821</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Login to the application</h5>
+<span class='badge badge-success'>07.23.2025 10:33:03 am</span>
+<span class='badge badge-danger'>07.23.2025 10:33:06 am</span>
+<span class='badge badge-default'>00:00:02:821</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>login to the application as an admin</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>login to the application as an admin</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.project.website.hooks.Hooks.beforeScenario()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DUCO-X06U517358', ip: '192.168.1.16'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given user navigate to url for login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enters username admin@practicesoftwaretesting.com and password welcome01</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user clicks on submit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user successfully lands to dashboard page with url "https://practicesoftwaretesting.com/admin/dashboard"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="14"><span class="badge log fail-bg mr-2">Fail</span>login to the application as customer</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="15"><span class="badge log fail-bg mr-2">Fail</span>login to the application as customer</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>com.project.website.hooks.Hooks.beforeScenario()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DUCO-X06U517358', ip: '192.168.1.16'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given user navigate to url for login</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enters username customer@practicesoftwaretesting.com and password welcome01</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user clicks on submit</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user successfully lands to dashboard page with url "https://practicesoftwaretesting.com/account"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="22"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registration Scenarios</p>
+            <p class="text-sm">
+              <span>10:33:06 am</span> / <span>00:00:02:214</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Registration Scenarios</h5>
+<span class='badge badge-success'>07.23.2025 10:33:06 am</span>
+<span class='badge badge-danger'>07.23.2025 10:33:08 am</span>
+<span class='badge badge-default'>00:00:02:214</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="23"><span class="badge log fail-bg mr-2">Fail</span>Successful registration with all mandatory fields</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>com.project.website.hooks.Hooks.beforeScenario()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DUCO-X06U517358', ip: '192.168.1.16'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>phone</td><td>0223466062</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>email</td><td>riju_anjilikkal@yahoo.com</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(java.lang.String)">
+                <span>Then user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="33"><span class="badge log fail-bg mr-2">Fail</span>Registration fails when email is missing</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>com.project.website.hooks.Hooks.beforeScenario()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DUCO-X06U517358', ip: '192.168.1.16'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>phone</td><td>0223466062</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_sees_an_error_message(java.util.List<java.lang.String>)">
+                <span>Then user should see error messages:</span>
+      <div><table class='markup-table table '><tr><td>Email is required</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="43"><span class="badge log fail-bg mr-2">Fail</span>Registration fails when email and phone are missing</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>com.project.website.hooks.Hooks.beforeScenario()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DUCO-X06U517358', ip: '192.168.1.16'
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:173)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:110)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
+	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
+	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
+Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	... 9 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe": CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
+	... 12 more
+Caused by: java.io.IOException: CreateProcess error=5, Access is denied
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	... 14 more
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_sees_an_error_message(java.util.List<java.lang.String>)">
+                <span>Then user should see error messages:</span>
+      <div><table class='markup-table table '><tr><td>Email is required</td></tr><tr><td>Phone is required.</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="66"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registration Scenarios</p>
+            <p class="text-sm">
+              <span>10:33:30 am</span> / <span>00:00:37:548</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Registration Scenarios</h5>
+<span class='badge badge-success'>07.23.2025 10:33:30 am</span>
+<span class='badge badge-danger'>07.23.2025 10:34:08 am</span>
+<span class='badge badge-default'>00:00:37:548</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="67"><span class="badge log fail-bg mr-2">Fail</span>Successful registration with all mandatory fields</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>phone</td><td>0223466062</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>email</td><td>riju_anjilikkal@yahoo.com</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(java.lang.String)">
+                <span>Then user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://practicesoftwaretesting.com/auth/login". Current url: "https://practicesoftwaretesting.com/auth/register" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: jdk.proxy2.$Proxy44
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
+	at ✽.user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Registration fails when email is missing</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>phone</td><td>0223466062</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_sees_an_error_message(java.util.List<java.lang.String>)">
+                <span>Then user should see error messages:</span>
+      <div><table class='markup-table table '><tr><td>Email is required</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="87"><span class="badge log pass-bg mr-2">Pass</span>Registration fails when email and phone are missing</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_on_the_home_page()">
+                <span>Given user is on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field()">
+                <span>When user clicks on the Sign in link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_click_on_register_your_account_hyperlink()">
+                <span>And user clicks on the Register your account hyperlink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_is_navigated_to_registration_url(java.lang.String)">
+                <span>Then user should be navigated to the registration URL "https://practicesoftwaretesting.com/auth/register"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_enters_registration_details(java.util.Map<java.lang.String, java.lang.String>)">
+                <span>When user enters registration details:</span>
+      <div><table class='markup-table table '><tr><td>firstname</td><td>RIJU</td></tr><tr><td>lastname</td><td>ISSAC</td></tr><tr><td>dob</td><td>1987-03-12</td></tr><tr><td>street</td><td>71 ONEWA RD</td></tr><tr><td>postalCode</td><td>0627</td></tr><tr><td>city</td><td>Auckland</td></tr><tr><td>state</td><td>Auckland</td></tr><tr><td>country</td><td>New Zealand</td></tr><tr><td>password</td><td>Anjilikkal@123</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_register_button()">
+                <span>And user clicks on the Register button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.project.website.stepdefentions.RegistrationStepDefenitions.user_sees_an_error_message(java.util.List<java.lang.String>)">
+                <span>Then user should see error messages:</span>
+      <div><table class='markup-table table '><tr><td>Email is required</td></tr><tr><td>Phone is required.</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>6</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>6 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:03 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>login to the application as an admin</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as an admin</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:03 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='6'>login to the application as an admin</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as an admin</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:05 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='15'>login to the application as customer</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as customer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:06 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='23'>Successful registration with all mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Successful registration with all mandatory fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:07 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='33'>Registration fails when email is missing</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email is missing</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:08 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='43'>Registration fails when email and phone are missing</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email and phone are missing</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:17 am</td>
+<td>
+<a href="#" class="linked" test-id='2' id='59'>login to the application as customer</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as customer</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:30 am</td>
+<td>
+<a href="#" class="linked" test-id='66' id='67'>Successful registration with all mandatory fields</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Successful registration with all mandatory fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:49 am</td>
+<td>
+<a href="#" class="linked" test-id='66' id='77'>Registration fails when email is missing</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email is missing</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:58 am</td>
+<td>
+<a href="#" class="linked" test-id='66' id='87'>Registration fails when email and phone are missing</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email and phone are missing</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:38 am</td>
+<td>
+<a href="#" class="linked" test-id='66' id='75'>Then user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Successful registration with all mandatory fields.Then user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>5</span>
+</span>
+<p class="name">org.openqa.selenium.SessionNotCreatedException</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.SessionNotCreatedException</h4>
+<span status="fail" class='badge log badge-danger'>5 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:03 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>com.project.website.hooks.Hooks.beforeScenario()</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as an admin.com.project.website.hooks.Hooks.beforeScenario()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:05 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>com.project.website.hooks.Hooks.beforeScenario()</a>
+<div class="">
+<span class="badge badge-default">Login to the application.login to the application as customer.com.project.website.hooks.Hooks.beforeScenario()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:06 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='24'>com.project.website.hooks.Hooks.beforeScenario()</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Successful registration with all mandatory fields.com.project.website.hooks.Hooks.beforeScenario()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:07 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='34'>com.project.website.hooks.Hooks.beforeScenario()</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email is missing.com.project.website.hooks.Hooks.beforeScenario()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:33:08 am</td>
+<td>
+<a href="#" class="linked" test-id='22' id='44'>com.project.website.hooks.Hooks.beforeScenario()</a>
+<div class="">
+<span class="badge badge-default">Registration Scenarios.Registration fails when email and phone are missing.com.project.website.hooks.Hooks.beforeScenario()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
