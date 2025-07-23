@@ -1,39 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="10" passed="4" failed="6" skipped="0">
+=======
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2025-07-23T10:33:01 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-23T10:34:08 NZST" duration-ms="66075">
+=======
+  <suite started-at="2025-07-23T19:46:22 NZST" name="Suite Cucumber All Feature" finished-at="2025-07-23T19:47:57 NZST" duration-ms="94382">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
     <groups>
       <group name="cucumber">
+<<<<<<< HEAD
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+=======
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2025-07-23T10:33:01 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-23T10:33:11 NZST" duration-ms="9057">
+=======
+    <test started-at="2025-07-23T19:46:22 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-23T19:47:33 NZST" duration-ms="70990">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
       <class name="com.project.runners.RunParallelAllScenarios">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:02 NZST" name="setUpClass" finished-at="2025-07-23T10:33:03 NZST" duration-ms="1325" status="PASS">
+=======
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:22 NZST" name="beforeSuite" finished-at="2025-07-23T19:46:22 NZST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:22 NZST" name="setUpClass" finished-at="2025-07-23T19:46:23 NZST" duration-ms="735" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@596df867]]>
+=======
+                <![CDATA[org.testng.TestRunner@3401a114]]>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:03 NZST" name="setupBrowser" finished-at="2025-07-23T10:33:03 NZST" duration-ms="7" status="PASS">
+=======
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:23 NZST" name="setupBrowser" finished-at="2025-07-23T19:46:23 NZST" duration-ms="0" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:03 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:05 NZST" duration-ms="2174" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:23 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:46:40 NZST" duration-ms="16475" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -95,7 +132,11 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:05 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:06 NZST" duration-ms="1063" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:40 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:46:53 NZST" duration-ms="13612" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -108,6 +149,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -154,10 +196,16 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:06 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:07 NZST" duration-ms="895" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:46:53 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:08 NZST" duration-ms="14989" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -170,6 +218,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -216,10 +265,16 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:07 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:08 NZST" duration-ms="706" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:47:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:21 NZST" duration-ms="12741" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -232,6 +287,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -278,10 +334,16 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:08 NZST" duration-ms="626" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:47:21 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:33 NZST" duration-ms="11986" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -294,6 +356,7 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
               </value>
             </param>
           </params>
+<<<<<<< HEAD
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -340,48 +403,79 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:08 NZST" name="clearBrowser" finished-at="2025-07-23T10:33:08 NZST" duration-ms="1" status="PASS">
+=======
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:47:33 NZST" name="clearBrowser" finished-at="2025-07-23T19:47:33 NZST" duration-ms="0" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearBrowser -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@3e0e1046]" started-at="2025-07-23T10:33:08 NZST" name="tearDownClass" finished-at="2025-07-23T10:33:11 NZST" duration-ms="2120" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@2a65fe7c]" started-at="2025-07-23T19:47:33 NZST" name="tearDownClass" finished-at="2025-07-23T19:47:33 NZST" duration-ms="396" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
+<<<<<<< HEAD
     </test> <!-- Test Cucumber All Feature Chrome -->
     <test started-at="2025-07-23T10:33:01 NZST" name="Test Cucumber All Feature Firefox" finished-at="2025-07-23T10:34:08 NZST" duration-ms="66074">
+=======
+    </test> <!-- Test Cucumber All Feature Firefox -->
+    <test started-at="2025-07-23T19:46:22 NZST" name="Test Cucumber All Feature Chrome" finished-at="2025-07-23T19:47:57 NZST" duration-ms="94382">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
       <class name="com.project.runners.RunParallelAllScenarios">
+<<<<<<< HEAD
         <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:00 NZST" name="beforeSuite" finished-at="2025-07-23T10:33:01 NZST" duration-ms="1050" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:02 NZST" name="setUpClass" finished-at="2025-07-23T10:33:03 NZST" duration-ms="1325" status="PASS">
+=======
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:46:22 NZST" name="setUpClass" finished-at="2025-07-23T19:46:23 NZST" duration-ms="735" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@c1fca1e]]>
+=======
+                <![CDATA[org.testng.TestRunner@7e276594]]>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:03 NZST" name="setupBrowser" finished-at="2025-07-23T10:33:03 NZST" duration-ms="7" status="PASS">
+=======
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:46:23 NZST" name="setupBrowser" finished-at="2025-07-23T19:46:23 NZST" duration-ms="0" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:03 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:17 NZST" duration-ms="13777" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:46:23 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:46:44 NZST" duration-ms="21147" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -397,7 +491,11 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:17 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:30 NZST" duration-ms="13244" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:46:44 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:46:53 NZST" duration-ms="8496" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -413,7 +511,11 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:30 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:49 NZST" duration-ms="19344" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:46:53 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:41 NZST" duration-ms="48405" status="FAIL">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -430,25 +532,39 @@ at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
             <message>
               <![CDATA[Expected condition failed: waiting for url to be "https://practicesoftwaretesting.com/auth/login". Current url: "https://practicesoftwaretesting.com/auth/register" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
+<<<<<<< HEAD
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: jdk.proxy2.$Proxy44]]>
+=======
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: jdk.proxy2.$Proxy43]]>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be "https://practicesoftwaretesting.com/auth/login". Current url: "https://practicesoftwaretesting.com/auth/register" (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '4.34.0', revision: '707dcb4246*'
+<<<<<<< HEAD
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
 Driver info: jdk.proxy2.$Proxy44
+=======
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: jdk.proxy2.$Proxy43
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
-at ✽.user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"(file:///C:/Users/RijuIsaac/eclipse-workspace_1/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
+at ✽.user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:49 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:33:58 NZST" duration-ms="9002" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:47:41 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:49 NZST" duration-ms="7476" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -464,7 +580,11 @@ at ✽.user should be navigated to the login page URL "https://practicesoftwaret
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:33:58 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T10:34:08 NZST" duration-ms="9205" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:47:49 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-23T19:47:57 NZST" duration-ms="8031" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <params>
             <param index="0">
               <value>
@@ -480,15 +600,23 @@ at ✽.user should be navigated to the login page URL "https://practicesoftwaret
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:34:08 NZST" name="clearBrowser" finished-at="2025-07-23T10:34:08 NZST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearBrowser -->
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@5038d0b5]" started-at="2025-07-23T10:34:08 NZST" name="tearDownClass" finished-at="2025-07-23T10:34:08 NZST" duration-ms="53" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:47:57 NZST" name="tearDownClass" finished-at="2025-07-23T19:47:57 NZST" duration-ms="44" status="PASS">
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:com.project.runners.RunParallelAllScenarios@478190fc]" started-at="2025-07-23T19:47:57 NZST" name="clearBrowser" finished-at="2025-07-23T19:47:57 NZST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
-    </test> <!-- Test Cucumber All Feature Firefox -->
+    </test> <!-- Test Cucumber All Feature Chrome -->
   </suite> <!-- Suite Cucumber All Feature -->
 </testng-results>

@@ -8,14 +8,22 @@
         <methods>
           <include name="setUpClass"/>
           <include name="beforeSuite"/>
+<<<<<<< HEAD
+=======
+          <include name="runScenario" invocation-numbers="2"/>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <include name="tearDownClass"/>
+<<<<<<< HEAD
           <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
           <include name="setupBrowser"/>
           <include name="clearBrowser"/>
         </methods>
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
     </classes>
   </test> <!-- Test Cucumber All Feature Chrome(failed) -->
+<<<<<<< HEAD
   <test thread-count="5" parallel="tests" name="Test Cucumber All Feature Firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
@@ -31,4 +39,6 @@
       </class> <!-- com.project.runners.RunParallelAllScenarios -->
     </classes>
   </test> <!-- Test Cucumber All Feature Firefox(failed) -->
+=======
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </suite> <!-- Failed suite [Suite Cucumber All Feature] -->

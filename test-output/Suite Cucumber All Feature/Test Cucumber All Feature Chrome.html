@@ -55,11 +55,23 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Cucumber All Feature Chrome</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </tr><tr>
+<<<<<<< HEAD
 <td>Started on:</td><td>Wed Jul 23 10:33:01 NZST 2025</td>
+=======
+<td>Started on:</td><td>Wed Jul 23 19:46:22 NZST 2025</td>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </tr>
+<<<<<<< HEAD
 <tr><td>Total time:</td><td>9 seconds (9057 ms)</td>
+=======
+<tr><td>Total time:</td><td>94 seconds (94382 ms)</td>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,16 +82,21 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+=======
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful registration with all mandatory fields", "Registration Scenarios"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+<<<<<<< HEAD
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
@@ -113,7 +130,18 @@ Caused by: java.io.IOException: CreateProcess error=5, Access is denied
 </pre></div><a href='#' onClick='toggleBox("stack-trace1284523250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
 <div class='stack-trace' id='stack-trace1284523250'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+=======
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: jdk.proxy2.$Proxy43
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
+	at ?.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace801943515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace801943515'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
+<<<<<<< HEAD
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
@@ -144,7 +172,16 @@ Caused by: java.io.IOException: CreateProcess error=5, Access is denied
 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
 	... 14 more
+=======
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: jdk.proxy2.$Proxy43
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
+	at ?.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </pre></div></td>
+<<<<<<< HEAD
 <td>2</td>
 <td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
 <tr>
@@ -363,7 +400,20 @@ Caused by: java.io.IOException: CreateProcess error=5, Access is denied
 </pre></div></td>
 <td>0</td>
 <td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
+=======
+<td>48</td>
+<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 <tr>
+<<<<<<< HEAD
 <td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
 <td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
 Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
@@ -435,6 +485,27 @@ Caused by: java.io.IOException: CreateProcess error=5, Access is denied
 </pre></div></td>
 <td>0</td>
 <td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
+=======
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
+<td></td>
+<td>21</td>
+<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+<tr>
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email and phone are missing", "Registration Scenarios"</td>
+<td></td>
+<td>8</td>
+<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+<tr>
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as customer", "Login to the application"</td>
+<td></td>
+<td>8</td>
+<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+<tr>
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
+<td></td>
+<td>7</td>
+<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 </table><p>
 </body>
 </html>

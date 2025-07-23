@@ -16,6 +16,7 @@
 
 	<!-- Depenpendencies for the project -->
 	<dependencies>
+<<<<<<< HEAD
 
 		<!--
 		https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
@@ -23,6 +24,12 @@
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
 			<version>${extend.report.version}</version>
+=======
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.0</version>
+>>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -54,8 +61,7 @@
 			<version>${cucumber.java.version}</version>
 		</dependency>
 
-		<!--
-		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
