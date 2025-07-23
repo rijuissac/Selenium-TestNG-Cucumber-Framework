@@ -11,15 +11,15 @@ Scenario: Successful registration with all mandatory fields
   When user enters registration details:
     | firstname   | RIJU                      |
     | lastname    | ISSAC                     |
-    | dob         | 1987-03-12                |
-    | street      | 71 ONEWA RD               |
+    | dob         | 1987-03-31                |
+    | street      | 71 RD               |
     | postalCode  | 0627                      |
     | city        | Auckland                  |
     | phone       | 0223466062                |
     | state       | Auckland                  |
     | country     | New Zealand               |
-    | email       | riju_anjilikkal@yahoo.com |
-    | password    | Anjilikkal@123            |
+    | email       | riju_anjilikkal121@yahoo.com |
+    | password    | Passowrd@123           |
   And user clicks on the Register button
   Then user should be navigated to the login page URL "https://practicesoftwaretesting.com/auth/login"
 
@@ -27,14 +27,14 @@ Scenario: Registration fails when email is missing
   When user enters registration details:
     | firstname   | RIJU           |
     | lastname    | ISSAC          |
-    | dob         | 1987-03-12     |
-    | street      | 71 ONEWA RD    |
+    | dob         | 1987-03-31     |
+    | street      | 71 RD    |
     | postalCode  | 0627           |
     | city        | Auckland       |
     | phone       | 0223466062     |
     | state       | Auckland       |
     | country     | New Zealand    |
-    | password    | Anjilikkal@123 |
+    | password    | Passowrd@123|
   And user clicks on the Register button
   Then user should see error messages:
     |Email is required|
@@ -43,13 +43,13 @@ Scenario: Registration fails when email and phone are missing
   When user enters registration details:
     | firstname   | RIJU           |
     | lastname    | ISSAC          |
-    | dob         | 1987-03-12     |
-    | street      | 71 ONEWA RD    |
+    | dob         | 1987-03-31     |
+    | street      | 71  RD    |
     | postalCode  | 0627           |
     | city        | Auckland       |
     | state       | Auckland       |
     | country     | New Zealand    |
-    | password    | Anjilikkal@123 |
+    | password    | Passowrd@123|
   And user clicks on the Register button
   Then user should see error messages:
     |Email is required|
