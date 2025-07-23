@@ -18,7 +18,7 @@ public class DriverManager {
 	private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
 
-	public static void createDriverInstance(String browser) {
+	public static String createDriverInstance(String browser) {
 		
 		//System.out.println(BrowserConfig.getBrowser());
 
@@ -29,6 +29,8 @@ public class DriverManager {
 
 		driver.set(ThreadGuard.protect(BrowserFactory.valueOf(browser_selected).createDriver()));
 		driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds( 30));
+		
+		return browser_selected;
 	}
 	
 	

@@ -15,7 +15,11 @@
 
 	<!-- Depenpendencies for the project -->
 	<dependencies>
-		
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.1.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
@@ -47,8 +51,7 @@
 			<version>${cucumber.java.version}</version>
 		</dependency>
 
-		<!--
-		https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-picocontainer</artifactId>
