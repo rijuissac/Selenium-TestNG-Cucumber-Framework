@@ -1571,3 +1571,40 @@
 2025-07-23 19:47:49.119 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
 2025-07-23 19:47:56.979 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
 >>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+2025-09-21 15:35:33.214 [main] INFO  utils.LogUtils - ====== BEFORE SUITE =======
+2025-09-21 15:35:34.295 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-09-21 15:35:34.295 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE ALL =======
+2025-09-21 15:35:34.295 [TestNG-tests-1] INFO  utils.LogUtils - Loading Property File
+2025-09-21 15:35:34.295 [TestNG-tests-2] INFO  utils.LogUtils - Loading Property File
+2025-09-21 15:35:34.296 [TestNG-tests-2] INFO  utils.LogUtils - 
+2025-09-21 15:35:34.296 [TestNG-tests-1] INFO  utils.LogUtils - 
+2025-09-21 15:35:34.688 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:35:34.688 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:35:34.690 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-09-21 15:35:34.690 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-09-21 15:35:38.040 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:35:38.059 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:35:38.059 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-09-21 15:35:49.055 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:35:49.240 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:35:49.241 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-09-21 15:35:55.228 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:35:55.660 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:35:55.660 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-09-21 15:36:05.934 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:36:06.285 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:36:06.286 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-09-21 15:36:08.769 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:36:10.155 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:36:10.155 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-09-21 15:36:21.454 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:36:22.610 [TestNG-tests-2] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:36:22.611 [TestNG-tests-2] INFO  utils.LogUtils - Broweser Selected: FIREFOX
+2025-09-21 15:36:32.421 [TestNG-tests-2] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:36:41.353 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:36:41.624 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:36:41.624 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-09-21 15:37:18.257 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======
+2025-09-21 15:37:18.481 [TestNG-tests-1] INFO  utils.LogUtils - ====== BEFORE SCENARIO======
+2025-09-21 15:37:18.481 [TestNG-tests-1] INFO  utils.LogUtils - Broweser Selected: CHROME
+2025-09-21 15:37:53.185 [TestNG-tests-1] INFO  utils.LogUtils - ====== AFTER SCENARIO =======

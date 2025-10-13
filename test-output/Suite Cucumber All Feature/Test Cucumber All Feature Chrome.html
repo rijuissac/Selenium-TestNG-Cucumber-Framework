@@ -55,23 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test Cucumber All Feature Chrome</h2><table border='1' align="center">
 <tr>
-<<<<<<< HEAD
-<td>Tests passed/Failed/Skipped:</td><td>0/5/0</td>
-=======
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+<td>Tests passed/Failed/Skipped:</td><td>2/3/0</td>
 </tr><tr>
-<<<<<<< HEAD
-<td>Started on:</td><td>Wed Jul 23 10:33:01 NZST 2025</td>
-=======
-<td>Started on:</td><td>Wed Jul 23 19:46:22 NZST 2025</td>
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+<td>Started on:</td><td>Sun Sep 21 15:35:33 NZST 2025</td>
 </tr>
-<<<<<<< HEAD
-<tr><td>Total time:</td><td>9 seconds (9057 ms)</td>
-=======
-<tr><td>Total time:</td><td>94 seconds (94382 ms)</td>
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+<tr><td>Total time:</td><td>140 seconds (140829 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -87,322 +75,164 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<<<<<<< HEAD
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-=======
 <td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful registration with all mandatory fields", "Registration Scenarios"</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-<<<<<<< HEAD
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1284523250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1284523250'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-=======
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: jdk.proxy2.$Proxy43
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
-	at ?.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
-</pre></div><a href='#' onClick='toggleBox("stack-trace801943515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace801943515'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to be &quot;https://practicesoftwaretesting.com/auth/login&quot;. Current url: &quot;https://practicesoftwaretesting.com/auth/register&quot; (tried for 10 second(s) with 500 milliseconds interval)
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-<<<<<<< HEAD
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+Command: [230e63c2b9b72f9b7e352f8a11369e84, clickElement {id=f.48C4A183C69EF2DF2017994D18CA6D27.d.7F2C7EA37BF6F533D82EDB9ADC538A99.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64542/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (230e63c2b9b72f9b7e352f8a11369e84)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: 230e63c2b9b72f9b7e352f8a11369e84
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-=======
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace502545908", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace502545908'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: jdk.proxy2.$Proxy43
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.project.website.stepdefentions.RegistrationStepDefenitions.application_navigates_to_login_page_url(RegistrationStepDefenitions.java:99)
-	at ?.user should be navigated to the login page URL &quot;https://practicesoftwaretesting.com/auth/login&quot;(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:24)
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [230e63c2b9b72f9b7e352f8a11369e84, clickElement {id=f.48C4A183C69EF2DF2017994D18CA6D27.d.7F2C7EA37BF6F533D82EDB9ADC538A99.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64542}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64542/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (230e63c2b9b72f9b7e352f8a11369e84)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: 230e63c2b9b72f9b7e352f8a11369e84
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
 </pre></div></td>
-<<<<<<< HEAD
-<td>2</td>
-<td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
+<td>35</td>
+<td>com.project.runners.RunParallelAllScenarios@18078bef</td></tr>
 <tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successful registration with all mandatory fields", "Registration Scenarios"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+Command: [66e4ec3e7f6c108b39a5839baeb99e01, clickElement {id=f.42C62FD192C619EFBF82AAD843C0D888.d.FD0329AC9189BB480B483D093555F13F.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64889/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (66e4ec3e7f6c108b39a5839baeb99e01)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: 66e4ec3e7f6c108b39a5839baeb99e01
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1551581550", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1551581550'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace910818121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace910818121'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+Command: [66e4ec3e7f6c108b39a5839baeb99e01, clickElement {id=f.42C62FD192C619EFBF82AAD843C0D888.d.FD0329AC9189BB480B483D093555F13F.e.40}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64889}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64889/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (66e4ec3e7f6c108b39a5839baeb99e01)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: 66e4ec3e7f6c108b39a5839baeb99e01
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
 </pre></div></td>
-<td>0</td>
-<td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as customer", "Login to the application"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1735146918", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1735146918'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div></td>
-<td>1</td>
-<td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
+<td>36</td>
+<td>com.project.runners.RunParallelAllScenarios@18078bef</td></tr>
 <tr>
 <td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email and phone are missing", "Registration Scenarios"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+Command: [bcb26ca53817f0e30679c78eb5cb15b7, clickElement {id=f.883DBEBE3F81BBEDA8DFA73002BF8880.d.9A0030D70E198A3D947539FB193EDB1E.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64940/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcb26ca53817f0e30679c78eb5cb15b7)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: bcb26ca53817f0e30679c78eb5cb15b7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace173689728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace173689728'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace98819230", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace98819230'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.129)
 Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
+Command: [bcb26ca53817f0e30679c78eb5cb15b7, clickElement {id=f.883DBEBE3F81BBEDA8DFA73002BF8880.d.9A0030D70E198A3D947539FB193EDB1E.e.14}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.129, chrome: {chromedriverVersion: 140.0.7339.185 (eeea00e459e..., userDataDir: C:\Users\riju_\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64940}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64940/devtoo..., se:cdpVersion: 140.0.7339.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (bcb26ca53817f0e30679c78eb5cb15b7)] -&gt; xpath: //a[contains(.,&apos;Sign in&apos;)]]
+Session ID: bcb26ca53817f0e30679c78eb5cb15b7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at com.project.website.pages.HomePage.clickLogin(HomePage.java:26)
+	at com.project.website.stepdefentions.RegistrationStepDefenitions.user_clicks_on_the_sign_in_field(RegistrationStepDefenitions.java:49)
+	at ✽.user clicks on the Sign in link(file:///C:/Users/riju_/git/Selenium-TestNG-Cucumber-Framework/src/test/resources/feature/registration.feature:6)
 </pre></div></td>
-<td>0</td>
-<td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
-=======
-<td>48</td>
-<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+<td>34</td>
+<td>com.project.runners.RunParallelAllScenarios@18078bef</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -411,101 +241,16 @@ Caused by: java.io.IOException: CreateProcess error=5, Access is denied
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
-<tr>
-<<<<<<< HEAD
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
-<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1556145774", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1556145774'><pre>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: &apos;DUCO-X06U517358&apos;, ip: &apos;192.168.1.16&apos;
-Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], binary: C:\Program Files\Google\Chr..., extensions: []}}]}]
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:562)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:173)
-	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:110)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:83)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:72)
-	at drivers.BrowserFactory$1.createDriver(BrowserFactory.java:19)
-	at drivers.DriverManager.createDriverInstance(DriverManager.java:30)
-	at com.project.website.hooks.Hooks.beforeScenario(Hooks.java:43)
-Caused by: java.io.UncheckedIOException: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:195)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:213)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-	... 9 more
-Caused by: java.io.IOException: Cannot run program &quot;C:\Users\RijuIsaac\.cache\selenium\chromedriver\win64\138.0.7204.168\chromedriver.exe&quot;: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at org.openqa.selenium.os.ExternalProcess$Builder.start(ExternalProcess.java:193)
-	... 12 more
-Caused by: java.io.IOException: CreateProcess error=5, Access is denied
-	at java.base/java.lang.ProcessImpl.create(Native Method)
-	at java.base/java.lang.ProcessImpl.&lt;init&gt;(ProcessImpl.java:500)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	... 14 more
-</pre></div></td>
-<td>0</td>
-<td>com.project.runners.RunParallelAllScenarios@3e0e1046</td></tr>
-=======
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
-<td></td>
-<td>21</td>
-<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
-<tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email and phone are missing", "Registration Scenarios"</td>
-<td></td>
-<td>8</td>
-<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
 <tr>
 <td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as customer", "Login to the application"</td>
 <td></td>
-<td>8</td>
-<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
+<td>10</td>
+<td>com.project.runners.RunParallelAllScenarios@18078bef</td></tr>
 <tr>
-<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registration fails when email is missing", "Registration Scenarios"</td>
+<td title='com.project.runners.RunParallelAllScenarios.runScenario()'><b>runScenario</b><br>Test class: com.project.runners.RunParallelAllScenarios<br>Test method: Runs Cucumber Scenarios<br>Parameters: "login to the application as an admin", "Login to the application"</td>
 <td></td>
-<td>7</td>
-<td>com.project.runners.RunParallelAllScenarios@478190fc</td></tr>
->>>>>>> branch 'master' of https://github.com/rijuissac/Selenium-TestNG-Cucumber-Framework.git
+<td>21</td>
+<td>com.project.runners.RunParallelAllScenarios@18078bef</td></tr>
 </table><p>
 </body>
 </html>
