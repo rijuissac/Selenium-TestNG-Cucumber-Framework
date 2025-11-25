@@ -26,6 +26,9 @@ public class BaseRunner extends AbstractTestNGCucumberTests {
 
     @AfterClass(alwaysRun = true)
     public void clearBrowser() {
+    	
+    	//gfghfhg
         threadBrowser.remove();
+        
     }
 }

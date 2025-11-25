@@ -12,6 +12,7 @@ public class HomePage {
 	    private By logo = By.cssSelector("a.navbar-brand");
 	    private By contactLink = By.xpath("//a[contains(.,'Contact')]");
 	    private By cartButton = By.xpath("//a[contains(@href, '/cart')]");
+	   
 
 
 	    public String getPageTitle() {
