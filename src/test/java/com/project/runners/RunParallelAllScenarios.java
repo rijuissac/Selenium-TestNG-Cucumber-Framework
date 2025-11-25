@@ -40,6 +40,7 @@ public class RunParallelAllScenarios extends BaseRunner {
 	public static void beforeSuite()
 	{
 		LogUtils.info("====== BEFORE SUITE =======");
+		LogUtils.info("====== BEFORE SUITE 1=======");
 	}
 
 
