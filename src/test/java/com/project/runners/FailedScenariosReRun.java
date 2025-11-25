@@ -8,6 +8,6 @@ plugin= {"pretty","html:target/report.html"})
 
 public class FailedScenariosReRun extends BaseRunner {
 
-	
+	//asdasdasda
 	
 }
